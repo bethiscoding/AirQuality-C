@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52844E8E2463444300E21537 /* BRMCityAirQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 52844E8D2463444300E21537 /* BRMCityAirQuality.m */; };
+		52844E922463446F00E21537 /* BRMCityAirQualityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52844E912463446F00E21537 /* BRMCityAirQualityController.m */; };
+		52844E952463449000E21537 /* BRMWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 52844E942463449000E21537 /* BRMWeather.m */; };
+		52844E982463449E00E21537 /* BRMPollution.m in Sources */ = {isa = PBXBuildFile; fileRef = 52844E972463449E00E21537 /* BRMPollution.m */; };
+		52844E9E24636B6300E21537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52844E9D24636B6300E21537 /* Main.storyboard */; };
+		52844EA324636C9100E21537 /* BRMStatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52844EA224636C9100E21537 /* BRMStatesTableViewController.swift */; };
+		52844EA524636CA100E21537 /* BRMCitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52844EA424636CA100E21537 /* BRMCitiesTableViewController.swift */; };
+		52844EA724636CB300E21537 /* BRMCityDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52844EA624636CB300E21537 /* BRMCityDataViewController.swift */; };
+		52844EA924636CF300E21537 /* BRMCountriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52844EA824636CF300E21537 /* BRMCountriesTableViewController.swift */; };
 		620C4FC02385DBF6001500FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 620C4FBF2385DBF6001500FE /* AppDelegate.m */; };
 		620C4FC32385DBF6001500FE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 620C4FC22385DBF6001500FE /* SceneDelegate.m */; };
 		620C4FCB2385DBF9001500FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 620C4FCA2385DBF9001500FE /* Assets.xcassets */; };
@@ -15,6 +24,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52844E8C2463444300E21537 /* BRMCityAirQuality.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRMCityAirQuality.h; sourceTree = "<group>"; };
+		52844E8D2463444300E21537 /* BRMCityAirQuality.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRMCityAirQuality.m; sourceTree = "<group>"; };
+		52844E902463446F00E21537 /* BRMCityAirQualityController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRMCityAirQualityController.h; sourceTree = "<group>"; };
+		52844E912463446F00E21537 /* BRMCityAirQualityController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRMCityAirQualityController.m; sourceTree = "<group>"; };
+		52844E932463449000E21537 /* BRMWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRMWeather.h; sourceTree = "<group>"; };
+		52844E942463449000E21537 /* BRMWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRMWeather.m; sourceTree = "<group>"; };
+		52844E962463449E00E21537 /* BRMPollution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRMPollution.h; sourceTree = "<group>"; };
+		52844E972463449E00E21537 /* BRMPollution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRMPollution.m; sourceTree = "<group>"; };
+		52844E9D24636B6300E21537 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		52844E9F24636BB900E21537 /* AirQuality ObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirQuality ObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		52844EA224636C9100E21537 /* BRMStatesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRMStatesTableViewController.swift; sourceTree = "<group>"; };
+		52844EA424636CA100E21537 /* BRMCitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRMCitiesTableViewController.swift; sourceTree = "<group>"; };
+		52844EA624636CB300E21537 /* BRMCityDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRMCityDataViewController.swift; sourceTree = "<group>"; };
+		52844EA824636CF300E21537 /* BRMCountriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRMCountriesTableViewController.swift; sourceTree = "<group>"; };
 		620C4FBB2385DBF6001500FE /* AirQuality ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirQuality ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		620C4FBE2385DBF6001500FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		620C4FBF2385DBF6001500FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,6 +60,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52844E872463429100E21537 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52844E9D24636B6300E21537 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52844E882463429B00E21537 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52844E8B246342A900E21537 /* ModelControllers */,
+				52844E8A246342A400E21537 /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		52844E89246342A000E21537 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52844E8C2463444300E21537 /* BRMCityAirQuality.h */,
+				52844E8D2463444300E21537 /* BRMCityAirQuality.m */,
+				52844E932463449000E21537 /* BRMWeather.h */,
+				52844E942463449000E21537 /* BRMWeather.m */,
+				52844E962463449E00E21537 /* BRMPollution.h */,
+				52844E972463449E00E21537 /* BRMPollution.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52844E8A246342A400E21537 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				52844E9F24636BB900E21537 /* AirQuality ObjC-Bridging-Header.h */,
+				52844EA824636CF300E21537 /* BRMCountriesTableViewController.swift */,
+				52844EA224636C9100E21537 /* BRMStatesTableViewController.swift */,
+				52844EA424636CA100E21537 /* BRMCitiesTableViewController.swift */,
+				52844EA624636CB300E21537 /* BRMCityDataViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		52844E8B246342A900E21537 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				52844E902463446F00E21537 /* BRMCityAirQualityController.h */,
+				52844E912463446F00E21537 /* BRMCityAirQualityController.m */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
 		620C4FB22385DBF6001500FE = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +130,9 @@
 		620C4FBD2385DBF6001500FE /* AirQuality ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				52844E89246342A000E21537 /* Models */,
+				52844E882463429B00E21537 /* Controllers */,
+				52844E872463429100E21537 /* Views */,
 				620C4FD72385DDA8001500FE /* Resources */,
 			);
 			path = "AirQuality ObjC";
@@ -102,13 +179,13 @@
 		620C4FB32385DBF6001500FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = DVM;
+				CLASSPREFIX = BRM;
 				LastUpgradeCheck = 1120;
-				ORGANIZATIONNAME = "RYAN GREENBURG";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					620C4FBA2385DBF6001500FE = {
 						CreatedOnToolsVersion = 11.2.1;
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -135,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52844E9E24636B6300E21537 /* Main.storyboard in Resources */,
 				620C4FCE2385DBF9001500FE /* LaunchScreen.storyboard in Resources */,
 				620C4FCB2385DBF9001500FE /* Assets.xcassets in Resources */,
 			);
@@ -147,9 +225,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52844E922463446F00E21537 /* BRMCityAirQualityController.m in Sources */,
+				52844EA924636CF300E21537 /* BRMCountriesTableViewController.swift in Sources */,
+				52844EA724636CB300E21537 /* BRMCityDataViewController.swift in Sources */,
 				620C4FC02385DBF6001500FE /* AppDelegate.m in Sources */,
+				52844E8E2463444300E21537 /* BRMCityAirQuality.m in Sources */,
+				52844E982463449E00E21537 /* BRMPollution.m in Sources */,
+				52844EA524636CA100E21537 /* BRMCitiesTableViewController.swift in Sources */,
 				620C4FD12385DBF9001500FE /* main.m in Sources */,
+				52844E952463449000E21537 /* BRMWeather.m in Sources */,
 				620C4FC32385DBF6001500FE /* SceneDelegate.m in Sources */,
+				52844EA324636C9100E21537 /* BRMStatesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +377,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "RG.AirQuality-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "AirQuality ObjC/AirQuality ObjC-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "AirQuality ObjC/Controllers/ViewControllers/AirQuality ObjC-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +398,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "RG.AirQuality-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "AirQuality ObjC/AirQuality ObjC-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "AirQuality ObjC/Controllers/ViewControllers/AirQuality ObjC-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
